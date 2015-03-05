@@ -1,1 +1,3 @@
-# Telerik_CSharpPart1
+# TelerikHomework
+
+Complete soltions for Telerik homework for the course C# Programmer
