@@ -10,6 +10,7 @@ class FourDigitNumber
         {
             throw new IndexOutOfRangeException();
         }
+
         int firstDigit = number / 1000;
         int secondDigit = number / 100 % 10;
         int thirdDigit = number / 10 % 10;

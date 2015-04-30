@@ -23,16 +23,19 @@ class BitsExchange
             flipBit(ref number, 3);
             flipBit(ref number, 24);
         }
+
         if (findBit(number, 4) != findBit(number, 25))
         {
             flipBit(ref number, 4);
             flipBit(ref number, 25);
         }
+
         if (findBit(number, 5) != findBit(number, 26))
         {
             flipBit(ref number, 5);
             flipBit(ref number, 26);
         }
+
         Console.WriteLine(number);
     }
 }

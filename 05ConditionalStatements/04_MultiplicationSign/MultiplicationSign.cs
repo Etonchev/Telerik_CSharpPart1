@@ -15,14 +15,17 @@ class MultiplicationSign
         {
             negativeCount++;
         }
+
         if (second < 0)
         {
             negativeCount++;
         }
+
         if (third < 0)
         {
             negativeCount++;
         }
+
         if (first == 0 || second == 0 || third == 0)
         {
             Console.WriteLine("0");

@@ -13,6 +13,7 @@ class ExchangeIfGreater
             first = second;
             second = temp;
         }
+
         Console.WriteLine("{0}, {1}", first, second);
     }
 }

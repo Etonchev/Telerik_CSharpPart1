@@ -27,6 +27,7 @@ class QuadraticEquation
             x1 = (-b + Math.Sqrt(discriminant)) / 2 * a;
             x2 = (-b - Math.Sqrt(discriminant)) / 2 * a;
         }
+
         Console.WriteLine("x1={0}; x2={1}", x1, x2);
     }
 }
